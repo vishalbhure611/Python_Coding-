@@ -3,7 +3,7 @@
 #using two-pointers-
 def merge_sorted(list1, list2):
     i = 0
-    j = 0
+    j = 0                                               
     result = []
 
     while i < len(list1) and j < len(list2):
@@ -32,3 +32,16 @@ list1 = [1,3,5,7]
 list2 = [2,4,6,8]
 
 print(merge_sorted(list1, list2))
+
+# core-idea->
+# Two sorted lists
+#        ↓
+# Compare front elements
+#        ↓
+# Take smaller one
+#        ↓
+# Move that pointer
+#        ↓
+# Repeat until one list finishes
+#        ↓
+# Copy leftovers from other list
