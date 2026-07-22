@@ -1,3 +1,5 @@
+# Q6. Given a list of integers, remove duplicate elements while preserving the original order.
+
  #using list only
 def remove_dupints(lst):
     ans =[]

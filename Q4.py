@@ -1,4 +1,4 @@
-# Q4. Given two strings, determine whether they are anagrams.(two strings are anagrams if they contain the      exact same characters in the same frequencies but in a different order) eg- silent and listen, heart and earth
+# Q4. Given two strings, determine whether they are anagrams.(two strings are anagrams if they contain the  exact same characters in the same frequencies but in a different order) eg- silent and listen, heart and earth
 def isAnagram(s1,s2):
 
     if len(s1) != len(s2):
@@ -24,6 +24,8 @@ print(isAnagram(s1,s2))
 
 #
 def isAnagram2(s1,s2):
+    if len(s1) != len(s2):
+        return False
     freq={}
     
     for i in s1:

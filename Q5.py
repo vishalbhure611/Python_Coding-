@@ -11,8 +11,8 @@ print(remove_duplicates(s))
 #using list ,without set - O(n^2) 
 def remove_dup(s):
     ans1 =[]
-    for i in s:
-        if i not in ans1:
+    for i in s:                      # ->O(n)
+        if i not in ans1:            # ->O(n)
             ans1.append(i)
     return ans1
 
