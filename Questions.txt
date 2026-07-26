@@ -37,3 +37,93 @@ Q18. Find the top three most frequent words in a paragraph using Counter.
 Q19. Sort a list of employee records based on salary using a lambda function.
 
 Q20. Implement a queue using collections.deque with enqueue, dequeue, and peek operations.
+
+21. Longest Substring Without Repeating Characters
+    Given a string, find the length of the longest substring that contains no repeating characters.
+
+    Example:
+    Input: "abcabcbb"
+    Output: 3
+    Explanation: "abc"
+
+
+22. Compress a String (Run-Length Encoding)
+    Given a string, compress it by replacing consecutive repeated characters with the character followed by its count.
+
+    Example:
+    Input: "aaabbccccd"
+    Output: "a3b2c4d1"
+
+
+23. Decode a Compressed String
+    Given a run-length encoded string, reconstruct the original string.
+
+    Example:
+    Input: "a3b2c4d1"
+    Output: "aaabbccccd"
+
+
+24. Longest Common Prefix
+    Given a list of strings, find the longest common prefix shared by all strings.
+
+    Example:
+    Input: ["flower", "flow", "flight"]
+    Output: "fl"
+
+
+25. Check Whether Two Strings Are One Edit Away
+    Determine whether two strings are at most one edit apart (insert, delete, or replace one character).
+
+    Example:
+    Input:
+        cat
+        cut
+    Output:
+        True
+
+
+26. Sort Characters by Frequency
+    Given a string, return a new string where characters are sorted in decreasing order of their frequency.
+
+    Example:
+    Input: "tree"
+    Output: "eert"
+
+
+27. Find the Longest Palindromic Substring
+    Given a string, return the longest substring that is a palindrome.
+
+    Example:
+    Input: "babad"
+    Output: "bab"
+    (or "aba")
+
+
+28. Find All Starting Indices of a Pattern
+    Given a string and a pattern, return all starting indices where the pattern occurs.
+
+    Example:
+    Input:
+        String = "ababcabcab"
+        Pattern = "abc"
+    Output:
+        [2, 5]
+
+
+29. Reverse the Words in a Sentence
+    Reverse the order of words in a sentence without reversing the characters within each word.
+
+    Example:
+    Input: "Python is easy to learn"
+    Output: "learn to easy is Python"
+
+
+30. Minimum Window Substring
+    Given two strings, find the smallest substring in the first string that contains all characters of the second string.
+
+    Example:
+    Input:
+        String = "ADOBECODEBANC"
+        Pattern = "ABC"
+    Output:
+        "BANC"
