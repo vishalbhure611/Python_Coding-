@@ -5,7 +5,7 @@
 
 from abc import ABC,abstractmethod
 
-class Payment(ABC):
+class Payment(ABC):               #ABC-Abstract Base Class
 
     @abstractmethod 
     def pay(self,amount):
@@ -26,6 +26,8 @@ obj.pay(2000)
 
 obj2 =CreditCardPayment()
 obj2.pay(1000)
+
+
 
 #2nd example-
 
@@ -66,4 +68,4 @@ e1 = FullTimeEmployee("Vishal", 50000)
 e2 = ContractEmployee("Rahul", 100, 400)
 
 print("full time emp salary:",e1.calculate_salary())
-print("Contract based emp salary:",e2.calculate_salary())
+print("Contract based emp salary:",e2.calculate_salary())  
